@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- Menú de navegación -->
+    <!-- Utilizado el navbar-expand-md para que se reduzca cuando llegue a las medidas md -->
+    <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="/img/logo.png" alt="" width="50" height="40"></a>        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="preguntasFrecuentes.html">Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienesSomos.html">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Ir al footer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://comoconociavuestramadre.fandom.com/wiki/Bar_MacLaren%27s">MacLaren</a>
+            </li>           
+            
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-dark" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    </header>
+
+    
+    <main>   
+      
+      <div class="">
+        <h1 class="display-1"> Bar McLaren</h1>
+        <h5 class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic libero omnis sit quae aperiam voluptas dolore sapiente odio, veniam iure accusamus pariatur at fuga autem voluptatem? Recusandae vel eos autem quo voluptatum optio accusantium mollitia veritatis architecto officiis laudantium maiores dolore beatae placeat sit voluptatibus repudiandae, ullam deserunt qui! Earum?</h5>
+        <img src="img/bar.jpg" class="img-fluid" alt="bar">
+      </div>
+
+      <div class="row px-4 pt-3">
+        <div class="card me-3 col-lg-4 col-md-4" style="width: 18rem;">
+            <img src="img/cafeteria.jpg"
+            style="height: 200px; width: 100%; display: block"
+            data-src="holder.js/100%x200"
+            alt="cafeteria" />
+            <div class="card-body">
+              <h5 class="card-title">Servicio de cafetería</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis doloremque cum ad nobis fugit? Fugit obcaecati ex accusantium earum saepe.</p>
+              <a href="servicio.html" class="btn btn-dark">Ver más</a>              
+            </div>
+          </div>
+  
+          <div class="card me-3 col-lg-4 col-md-4" style="width: 18rem;">
+            <img src="/img/comida.jpg"
+            style="height: 200px; width: 100%; display: block"
+            data-src="holder.js/100%x200"
+            alt="comida" />
+            <div class="card-body">
+              <h5 class="card-title">Servicio de comida</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex expedita dolores quae tenetur autem obcaecati molestiae quos odio non rerum?</p>
+              <a href="servicio.html" class="btn btn-dark">Ver más</a>              
+            </div>
+          </div>
+  
+          <div class="card me-3 col-lg-4 col-md-4" style="width: 18rem;">
+            <img src="img/cocteleria.jpg"
+            style="height: 200px; width: 100%; display: block"
+            data-src="holder.js/100%x200"
+            alt="coctelería" />
+            <div class="card-body">
+              <h5 class="card-title">Servicio de coctelería</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex expedita dolores quae tenetur autem obcaecati molestiae quos odio non rerum?</p>
+              <a href="servicio.html" class="btn btn-dark">Ver más</a>              
+            </div>
+          </div>
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide pt-3" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col">
+                  <img src="img/1.jpg" class="d-block w-100" alt="1persona">
+                  <h5>Manuel Diaz</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus eius fugiat nam iste provident.
+                </p>
+                </div>
+                <div class="col">
+                  <img src="img/2.jpg" class="d-block w-100" alt="1persona">
+                  <h5>Curro Jimenez</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus eius fugiat nam iste provident.
+                </p>
+                </div>
+                <div class="col">
+                  <img src="img/3.jpg" class="d-block w-100" alt="1persona">
+                  <h5>Clara Mente</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus eius fugiat nam iste provident.
+                </p>
+                </div>  
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <img src="img/6.jpg" class="d-block w-100" alt="1persona">
+                  <h5>Adrian Martin</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus eius fugiat nam iste provident.
+                </p>
+                </div>
+                <div class="col">
+                  <img src="img/5.jpg" class="d-block w-100" alt="1persona">
+                  <h5>Ana Torres</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus eius fugiat nam iste provident.
+                </p>
+                </div>
+                <div class="col">
+                  <img src="img/6.jpg" class="d-block w-100" alt="1persona">
+                  <h5>Mohamed Nsyre</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus eius fugiat nam iste provident.
+                </p>
+                </div>  
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <img src="img/1.jpg" class="d-block w-100" alt="1persona">
+                  <h5>Manuel Diaz</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus eius fugiat nam iste provident.
+                </p>
+                </div>
+                <div class="col">
+                  <img src="img/2.jpg" class="d-block w-100" alt="1persona">
+                  <h5>Curro Jimenez</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus eius fugiat nam iste provident.
+                </p>
+                </div>
+                <div class="col">
+                  <img src="img/3.jpg" class="d-block w-100" alt="1persona">
+                  <h5>Clara Mente</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus eius fugiat nam iste provident.
+                </p>
+                </div>  
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+
+        <hr class="featurette-divider" /> 
+    </main>
+
+    
+    
+
+    
+
+     <!-- FOOTER-->
+     
+      <footer id="footer" class="py-3 p-5">
+        <div class="row">
+          <div class="col-6 col-md-2 col-sm-6 mb-3">
+            <h5>Compañia</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre nosotros</a></li>              
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+              <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">Contacto</a></li>              
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 col-sm-6 mb-3">
+            <h5>RGPD</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Aviso Legal</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Política de privacidad</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Política de cookies</a></li>              
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 col-sm-12 mb-3">
+            <h5>Visitanos</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">Plaza de la concordia, 4.</li>
+              <li class="nav-item mb-2">Los Palacios y Vfca.</li>
+              <li class="nav-item mb-2">41720 Sevilla</li>             
+            </ul>
+          </div>
+    
+          <div class="col-md-5 col-sm-12 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribete a nuestro newsletter</h5>
+              <p>Todos los meses le enviaremos las novedades.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email">
+                <button class="btn btn-dark" type="button">Subscribete</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-3 my-3 border-top">
+          <p>© 2023 Tibu & Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><img class="rounded-circle" width="30" height="30" src="/img/whatsap.png"/></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><img class="rounded-circle" width="30" height="30" src="/img/insta.png"/></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><img class="rounded-circle" width="30" height="30" src="/img/facebook.png"/></a></li>
+          </ul>
+        </div>
+      </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+  </body>
+  
+</html>
